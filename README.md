@@ -108,6 +108,8 @@ C_new <- apply(c_mat, 2, function(x) {
   as.numeric(names(table(x)) [which.max(table(x))])
 })
 
+C_new
+
 ```
 
 
@@ -124,10 +126,10 @@ library(BSMIND)
 
 Load the example data stored in this package. The example data includes:
 
-data_1: Gene expression data processed by standardization and principal component analysis (PCA).
-data_2: Pre-filtered proteomic data standardized via centered log-ratio (CLR) transformation, which conforms to a normal distribution.
-coord: Spatial coordinates corresponding to manually annotated tissue domain identification.
-true_label: The manual annotation of the domain identification.
+* data_1: Gene expression data processed by standardization and principal component analysis (PCA).
+* data_2: Pre-filtered proteomic data standardized via centered log-ratio (CLR) transformation, which conforms to a normal distribution.
+* coord: Spatial coordinates corresponding to manually annotated tissue domain identification.
+* true_label: The manual annotation of the domain identification.
 
 
 ```R
@@ -157,6 +159,8 @@ for (i in 1:n_iter) {
 C_new <- apply(c_mat, 2, function(x) {
   as.numeric(names(table(x)) [which.max(table(x))])
 })
+
+C_new
 
 ```
 
