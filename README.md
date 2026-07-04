@@ -26,8 +26,8 @@ devtools::install_github("mingxiuwei/BSMIND")
 ## Datasets information
 
 The data description is given in the following table.
-
-|               Dataset           | Spot/Cell number |  Gene number |  ADT number  |                        Download links                        |
+ 
+|               Dataset           |    Spot number   |  Gene number |  ADT number  |                        Download links                        |
 | :-----------------------------: | :--------------: | :----------: | :----------: | :------------------------------------------------------------------------: |
 |      Human lymph node A1        |       3,484      |    18,085    |      31      | Raw data: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE263617     |
 |  MMTV-PyMT mouse breast cancer  |       1,978      |    18,932    |      32      | Raw data: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi                   |
@@ -168,7 +168,7 @@ C_new
  
 ## Contact
 
-If you have any questions regarding this package, please contact Mingxiu Wei at [yinqiaoyan@bjut.edu.cn](mailto:weimingxiu@emails.bjut.edu.cn).
+If you have any questions regarding this package, please contact Mingxiu Wei at [weimingxiu@emails.bjut.edu.cn].
 
 
 
